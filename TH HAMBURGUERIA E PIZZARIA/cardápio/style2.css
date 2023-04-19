@@ -1,0 +1,156 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo global */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Seção de destaque */
+  .hero {
+    background-color: #f8b627;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    color: #fff;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #f8b627;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Cardápio */
+  .cardapio {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .cardapio-titulo h3 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .cardapio-titulo p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .cardapio-pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardapio-pizza {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .cardapio-pizza h4 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .cardapio-pizza p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cardapio-pizza span {
+    display: block;
+    font-size: 24px;
+    color: #f8b627;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Contato */
+  .contato {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contato h3 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contato input,
+  .contato textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
